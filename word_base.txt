@@ -1,0 +1,14 @@
+Heat pipe
+Cesium lake
+Electromagnetic pump
+Reactor core
+Heat pipe and Cesium lake
+Heat pipe and Electromagnetic pump
+Heat pipe and Reactor core
+Electromagnetic pump and Cesium lake
+Cesium lake and Reactor core
+Electromagnetic pump and Reactor core
+Heat pipe and Cesium lake and Electromagnetic pump
+Cesium lake and Reactor core and Electromagnetic pump
+Heat pipe and Cesium lake and Reactor core
+Normal

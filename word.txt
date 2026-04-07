@@ -1,0 +1,32 @@
+Heat pipe
+Cesium lake
+Electromagnetic pump
+Reactor core
+Heat pipe and Cesium lake
+Heat pipe and Electromagnetic pump
+Heat pipe and Reactor core
+Electromagnetic pump and Cesium lake
+Cesium lake and Reactor core
+Electromagnetic pump and Reactor core
+Heat pipe and Cesium lake and Electromagnetic pump
+Heat pipe and Cesium lake and Reactor core
+Cesium lake and Reactor core and Electromagnetic pump
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased slightly, while the nuclear power, mass flow rate, voltage, current and fin temperature did not change significantly
+There was a slight rise in the coolant temperatures at both the core inlet and outlet, whereas nuclear power, mass flow rate, voltage, current, and fin temperature remained largely unchanged.
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased slightly, while the mass flow rate, nuclear power,  current, voltage and fin temperature did not change significantly
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased slightly, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change significantly
+There was a slight rise in the coolant temperatures at both the core inlet and outlet, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change significantly
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased, while the nuclear power, mass flow rate, voltage, current and fin temperature did not change significantly
+There was a  rise in the coolant temperatures at both the core inlet and outlet, whereas nuclear power, mass flow rate, voltage, current, and fin temperature remained largely unchanged.
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased, while the mass flow rate, nuclear power,  current, voltage and fin temperature did not change significantly
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change significantly
+There was a rise in the coolant temperatures at both the core inlet and outlet, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change significantly
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased significantly, while the nuclear power, mass flow rate, voltage, current and fin temperature did not change
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased significantly, while the nuclear power, mass flow rate, voltage, current and fin temperature did not change
+There was a  significant rise in the coolant temperatures at both the core inlet and outlet, whereas nuclear power, mass flow rate, voltage, current, and fin temperature remained largely unchanged.
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased significantly, while the mass flow rate, nuclear power,  current, voltage and fin temperature did not change
+The coolant temperature at the core inlet and the coolant temperature at the core outlet increased significantly, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change
+There was a significant rise in the coolant temperatures at both the core inlet and outlet, while the nuclear power,  current, voltage, fin temperature and mass flow rate did not change
+The system is operating normally,no abnormal fluctuations observed
+Parameters are stable, within the allowable range
+Equipment is running smoothly, no significant deviations detected
