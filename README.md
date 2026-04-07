@@ -1,13 +1,13 @@
-# Multi-Modal Fault Diagnosis Model
+# Fault Diagnosis Model based on the human in the loop
 
-This project implements a multi-modal fault diagnosis system based on both image and text data. It includes a text feature network, an image feature network, a fusion feature network, and a multi-source input feature judgment network. The project is built on the PyTorch framework and supports GPU acceleration for training and inference.
+This project implementsa human-in-the-loop machine learning diagnostic framework based on a Transformer backbone. It includes a text feature network, an image feature network, a fusion feature network, and a multi-source input feature judgment network. The project is built on the PyTorch framework and supports GPU acceleration for training and inference.
 
 ## Directory Structure
 
-Assuming the repository root is `MultiModalFault`, the recommended structure is:
+The recommended structure is:
 
 ```
-MultiModalFault/
+Fault/
 │
 ├─ data/                   # Raw data folder
 │   ├─ train_L/            # Original training images
