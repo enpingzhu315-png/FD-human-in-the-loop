@@ -160,11 +160,11 @@ def word_processor():
                 "<unk>",
                 "<mask>"
             ])
-    tokenizer.train(["/home/scinkiller/zhuep/Run_realtime/data_fault/多模态故障数据/data/word.txt"], trainer)
+    tokenizer.train(["./processor/word.txt"], trainer)
 
-    tokenizer.save(r"/home/scinkiller/zhuep/Run_realtime/data_fault/多模态故障数据/model/tokenizer.json")
+    tokenizer.save(r"./processor/tokenizer.json")
 
-    new_tokenizer = BertTokenizerFast.from_pretrained(r"/home/scinkiller/zhuep/Run_realtime/data_fault/多模态故障数据/model/")
+    new_tokenizer = BertTokenizerFast.from_pretrained(r"./processor/")
 
     new_tokenizer.add_special_tokens({
       "eos_token": "</s>",
@@ -1170,14 +1170,11 @@ if __name__ == '__main__':
 	The complete dataset will be available on Hugging Face, 
 	and the download link will be added later.
 	'''
-    train_set = torch.load("./small sample/train_set.pt")
-    print("Training Set Loading")
-    val_set = torch.load("./small sample/val_set.pt")
+	
+    val_set = torch.load("./val_set.pt")
     print("Validation Set Loading")
     
-    train_loader = DataLoader(train_set, batch_size=32, shuffle=True,drop_last=True)
     val_loader = DataLoader(val_set, batch_size=1, shuffle=False,drop_last=True)
-    val_train = DataLoader(train_set, batch_size=1, shuffle=True,drop_last=True)
     arr1 = label_sum(val_set)
     
 
@@ -1207,7 +1204,6 @@ if __name__ == '__main__':
         print("Text Feature Network Import")
         model_text.load_state_dict(torch.load('model_text.pt',map_location=device))
         model_text.eval()
-        num1,val1 = text_val(model_text,val_train,arr1)
         num1,val1 = text_val(model_text,val_loader,arr1)
         np.savetxt("val_text.txt", val1,fmt="%.4f")
     # 2.2 Image Model Training
@@ -1240,7 +1236,6 @@ if __name__ == '__main__':
         loss3 = np.array(loss3)
         np.savetxt("loss_fusion.txt", loss3,fmt="%.4f")
         model_fusion.eval()
-        num3,val3,arr3,_,_,_,_ = fusion_val(model_fusion,val_train,arr1)
         num3,val3,arr3,_,_,_,_ = fusion_val(model_fusion,val_loader,arr1)
         np.savetxt("val_fusion.txt", val3,fmt="%.4f")
     else:
@@ -1295,7 +1290,7 @@ if __name__ == '__main__':
     
     p1 = 0.7
     h = 7
-    if False:
+    if True:
         X_train,X_val = multi_data(model_fusion,model_image,ocsvm,train_set,val_set,probability=p1,ph=0,human=h)
         torch.save(X_train,"Decision_train.pt")
         torch.save(X_val,"Decision_val.pt")
